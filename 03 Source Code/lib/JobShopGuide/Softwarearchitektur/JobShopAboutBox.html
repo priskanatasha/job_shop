@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="generator" content="Helen">
+<title>JobShopAboutBox</title>
+</head>
+<body>
+	<div class="section" lang="de">
+		<div class="titlepage">
+			<div>
+				<div>
+					<h1 style="clear: both;">
+						<a name="d0e49"><font
+							face="SansSerif, Verdana, Arial, Helvetica">2.
+								Softwarearchitektur</font></a>
+					</h1>
+					<p class="title" style="clear: both;">
+						<font face="SansSerif, Verdana, Arial, Helvetica">--</font>
+					</p>
+					<h2 class="title" style="clear: both;">
+						<font face="SansSerif, Verdana, Arial, Helvetica">2.1 <a
+							name="_Toc62636618"></a>JobShopAboutBox
+						</font>
+					</h2>
+					<p class="title" style="clear: both;">&nbsp;</p>
+				</div>
+			</div>
+		</div>
+		<p>
+			<font face="SansSerif, Verdana, Arial, Helvetica"><i><b>Die
+						Klasse JobShopAboutBox</b></i></font>
+		</p>
+		<p>
+			<img src="Image/JobShopAboutBox2.png">
+		</p>
+		<p>
+			<span lang="en"><font
+				face="SansSerif, Verdana, Arial, Helvetica">Die Klasse
+					JobShopAboutBox zeigt grundlegende Metainformationen über die
+					JobShopNeu Applikation:</font></span>
+		</p>
+		<p>
+			<img src="Image/JobShopAboutBox1.png">
+		</p>
+		<p>
+			<span lang="en"><font
+				face="SansSerif, Verdana, Arial, Helvetica">Die Klasse
+					JobShopView ruft die Methode showAboutBox() auf, woraufhin sofern
+					noch nicht vorhanden, ein Frame erstellt wird und der Klasse
+					JobShopAboutBox als Parameter übergeben wird. Andernfalls wird die
+					AboutBox direkt angezeigt.</font></span>
+		</p>
+		<p>
+			<img src="Image/JobShopAboutBox3.png">
+		</p>
+		<p>
+			<span lang="en"><font
+				face="SansSerif, Verdana, Arial, Helvetica">Die Klasse
+					JobShopAboutBox selbst erbt von der Klasse javax.swing.JDialog. Der
+					JDialog ähnelt sehr stark einem JFrame mit der Ausnahme, dass der
+					JDialog modal gesetzt werden kann. Modal bedeutet, dass, während
+					der betreffende JDialog angezeigt wird, kein anderes Fenster
+					verwendbar bzw. aktivierbar ist. Über die Methode initComponents()
+					werden verschiedene JLabel sowie ein JButton initialisert. Der
+					JButton dient zum Schließen des Fensters, die JLabel für die
+					Angaben zur Beschreibung, der Version, des Autors, sowie dem Stand,
+					was in obiger Abbildung sehr gut zu erkennen ist. Mit Hilfe des
+					dispose Befehls, werden die zugeordneten Windows-Ressourcen wieder
+					freigegeben.</font></span>
+		</p>
+
+	</div>
+</body>
+</html>

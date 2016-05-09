@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/map_2_0.dtd">
+
+<map version="1.0">
+	<mapID target="FrontPage" url="FrontPage.html"/>
+
+	<mapID target="Einleitung" url="Einleitung.html"/>
+	
+	<mapID target="Softwarearchitektur" url="Softwarearchitektur.html"/>
+	<mapID target="JobShopApp" url="Softwarearchitektur/JobShopApp.html"/>
+	<mapID target="JobShopView" url="Softwarearchitektur/JobShopView.html"/>
+	<mapID target="JobShopCalculator" url="Softwarearchitektur/JobShopCalculator.html"/>
+	<mapID target="JobShopNumberFormatter" url="Softwarearchitektur/JobShopNumberFormatter.html"/>
+	<mapID target="JobShopFileFilter" url="Softwarearchitektur/JobShopFileFilter.html"/>
+	<mapID target="JobShopAboutBox" url="Softwarearchitektur/JobShopAboutBox.html"/>
+	<mapID target="JobShopResultBox" url="Softwarearchitektur/JobShopResultBox.html"/>
+	<mapID target="ResultList" url="Softwarearchitektur/ResultList.html"/>
+	<mapID target="Result" url="Softwarearchitektur/Result.html"/>
+	
+	<mapID target="Beispielaufgabe" url="Beispielaufgabe.html"/>
+	<mapID target="LoesungLPSolve" url="Beispielaufgabe/LoesungLPSolve.html"/>
+	<mapID target="LoesungJobShop" url="Beispielaufgabe/LoesungJobShop.html"/>
+	
+	<mapID target="Installationshinweise" url="Installationshinweise.html"/>
+</map>

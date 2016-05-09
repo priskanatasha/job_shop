@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+	<tocitem text="FrontPage" target="FrontPage" />
+	<tocitem text="(1) Einleitung" target="Einleitung" />
+	<tocitem text="(2) Softwarearchitektur" target="Softwarearchitektur" expand="true">
+		<tocitem text="(2.1) JobShopApp" target="JobShopApp" />
+		<tocitem text="(2.2) JobShopView" target="JobShopView" />
+		<tocitem text="(2.3) JobShopCalculator" target="JobShopCalculator" />
+		<tocitem text="(2.4) JobShopNumberFormatter" target="JobShopNumberFormatter" />
+		<tocitem text="(2.5) JobShopFileFilter" target="JobShopFileFilter" />
+		<tocitem text="(2.6) JobShopAboutBox" target="JobShopAboutBox" />
+		<tocitem text="(2.7) JobShopResultBox" target="JobShopResultBox" />
+		<tocitem text="(2.8) ResultList" target="ResultList" />
+		<tocitem text="(2.9) Result" target="Result" />
+	</tocitem>
+	<tocitem text="(3) Beispielaufgabe" target="Beispielaufgabe" expand="true">
+		<tocitem text="(3.1) Lösung mit LP-Solve" target="LoesungLPSolve" />
+		<tocitem text="(3.2) Lösung mit JobShop" target="LoesungJobShop" />
+	</tocitem>
+	<tocitem text="(4) Installationshinweise" target="Installationshinweise" />
+</toc>

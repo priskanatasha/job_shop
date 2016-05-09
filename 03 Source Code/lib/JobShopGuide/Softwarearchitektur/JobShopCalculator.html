@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="generator" content="Helen">
+<title>JobShopCalculator</title>
+</head>
+<body>
+	<div class="section" lang="de">
+		<div class="titlepage">
+			<div>
+				<div>
+					<h1 style="clear: both;">
+						<a name="d0e49"><font
+							face="SansSerif, Verdana, Arial, Helvetica">2.
+								Softwarearchitektur</font></a>
+					</h1>
+					<p class="title" style="clear: both;">
+						<font face="SansSerif, Verdana, Arial, Helvetica">--</font>
+					</p>
+					<h2 class="title" style="clear: both;">
+						<font face="SansSerif, Verdana, Arial, Helvetica">2.1 <a
+							name="_Toc62636618"></a>JobShopCalculator
+						</font>
+					</h2>
+					<p class="title" style="clear: both;">&nbsp;</p>
+				</div>
+			</div>
+		</div>
+		<p>
+			<font face="SansSerif, Verdana, Arial, Helvetica"><i><b>Die
+						Klasse JobShopCalculator</b></i></font>
+		</p>
+		<p>
+			<img src="Image/JobShopCalculator.png">
+		</p>
+		<p>
+			<span lang="en"><font
+				face="SansSerif, Verdana, Arial, Helvetica">Die Klasse
+					JobShopCalculator überführt nun die Benutzereingabe in ein
+					LP-Modell. Dabei werden folgende Restriktionen durch entsprechende
+					Methodenaufrufe erstellt:</font></span>
+		</p>
+		<p>
+		<ul>
+			<li>getDurationRestriction(List&lt;List&lt;JFormattedTextField>>jFTFieldList):Jedes
+				Produkt muss innerhalb der Gesamtdurchlaufzeit abgearbeitet werden.
+				Jedes Produkt hat so viel Variablen wie die Gesamtdurchlaufzeit
+				beträgt. Natürlich wird aufgrund zeitlicher Grenzen des Produkts
+				nicht der gesamte Variablenbereich benutzt.</li>
+			<li>getMachineRestriction(): Jede Maschine kann pro Zeiteinheit
+				immer nur 0 oder 1 Produkt bearbeiten.</li>
+			<li>getMaxDuration(): Ermittelt die Gesamtdurchlaufzeit, in
+				welcher die Produkte abgearbeitet werden müssen und gibt diese als
+				Summe zurück. Diese ist notwendig um die Gesamtanzahl der benötigten
+				Strukturvariablen als auch der benötigten Restriktionen zu
+				ermitteln.</li>
+			<li>getProductRestriction(): Ein Produkt kann pro Zeiteinheit
+				immer nur von 1 Maschine bearbeitet werden.</li>
+			<li>getRewardRestriction(): Die Produkte sollen möglichst an
+				einem Stückbearbeitet werden. Dadurch soll ein ständiger Wechsel auf
+				den Maschinen in Hinblick auf potenziell anfallende Rüstkosten
+				vermieden werden.</li>
+		</ul>
+		</p>
+		<p>
+			<span lang="en"><font
+				face="SansSerif, Verdana, Arial, Helvetica"> Anschließend
+					wird das zu lösende LP-Modell aus den einzelnen Restriktionslisten
+					durch calculate(List&lt;JFormattedTextField>> jFTFieldList)
+					zusammengebaut, an den Solver übergeben, gelöst und das Ergebnis
+					als Result zurückgegeben </font></span>
+		</p>
+	</div>
+</body>
+</html>

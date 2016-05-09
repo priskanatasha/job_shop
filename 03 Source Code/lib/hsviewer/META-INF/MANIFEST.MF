@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: 1.4.0 (Sun Microsystems Inc.)
+Class-Path: ../../javahelp/lib/jh.jar
+Main-Class: sunw.demo.jhdemo.JHLauncher
+

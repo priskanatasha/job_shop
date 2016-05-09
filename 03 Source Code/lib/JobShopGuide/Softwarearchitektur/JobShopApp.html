@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="generator" content="Helen">
+<title>JobShopApp</title>
+</head>
+<body>
+	<div class="section" lang="de">
+		<div class="titlepage">
+			<div>
+				<div>
+					<h1 style="clear: both;">
+						<a name="d0e49"><font
+							face="SansSerif, Verdana, Arial, Helvetica">2.
+								Softwarearchitektur</font></a>
+					</h1>
+					<p class="title" style="clear: both;">
+						<font face="SansSerif, Verdana, Arial, Helvetica">--</font>
+					</p>
+					<h2 class="title" style="clear: both;">
+						<font face="SansSerif, Verdana, Arial, Helvetica">2.1 <a
+							name="_Toc62636618"></a>JobShopApp
+						</font>
+					</h2>
+					<p class="title" style="clear: both;">&nbsp;</p>
+				</div>
+			</div>
+		</div>
+		<p>
+			<font face="SansSerif, Verdana, Arial, Helvetica"><i><b>Die
+						Klasse JobShopApp</b></i></font>
+		</p>
+		<p>
+             <img src="Image/JobShopApp.png">
+          </p>
+		<p>
+			<span lang="en"><font
+				face="SansSerif, Verdana, Arial, Helvetica">Diese Klasse
+					dient der Instanziierung und Verwaltung der GUI. Durch die
+					Verwendung des Singleton-Patterns soll sichergestellt werden, dass
+					von einer Klasse nur ein Objekt (Instanz) existiert. Dadurch soll
+					eine bessere Zugriffskontrolle bzw. eine bessere Wartbarkeit der
+					einzelnen Objekte gewährleistet werden. JobShopApp erbt dabei von
+					der abstrakten Klasse SingleFrameApplication, die Methoden zur
+					Verwaltung (WindowListener, Daten laden/speichern, Anwendung
+					öffnen/schließen usw.) der instanziierten Session bereitstellt.
+					Über die Methode launch() wird die Klasse instanziiert. Diese ruft
+					die Methode getApplication() auf, die eine bestehende Instanz
+					zurückgibt bzw. falls noch keine existiert, eine
+					Application-Instanz zurückliefert. Über startup() wird die GUI
+					erzeugt und angezeigt. Die Erstellung und Abbildung der
+					Eingabelogik für das LP-Modell wurde in eine weitere Klasse
+					ausgelagert, der JobShopView-Klasse</font></span>
+
+		</p>
+
+
+	</div>
+</body>
+</html>
